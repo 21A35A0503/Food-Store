@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #f3f3f3;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: orangered;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    z-index: 1000;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.foodstore{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.Login-button{
+    background-color: white;
+    color: orangered;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    padding: 120px 50px 30px;
+}
+.top-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.section-left{
+    width: 50%;
+    background: white;
+    border-radius: 15px;
+}
+
+.section-left img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    padding: 20px;
+}
+.section-right{
+    width: 50%;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.section-right-top h2{
+    color: orangered;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.section-right-top p{
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.section-right-top button{
+    background: orangered;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+}
+
+.section-right-top button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.bottom-section{
+    padding: 20px 50px 50px 40px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    
+}
+.bottom-left-section{
+    width: 50%;
+    position: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 130px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgb(244, 157, 222);
+
+}
+.Category{
+    width: 350px;
+    height: 455px;
+    background: white;
+    padding: 30px 30px;
+}
+
+.Category h2{
+    color: orangered;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Category ul{
+    list-style: none;
+}
+
+.Category ul li{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-bottom: 1px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.bottom-right-section{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.products{
+    width: 360px;
+    background: white;
+    border-radius: 15px;
+    display: inline-block;
+    overflow: hidden;
+    padding-bottom: 20px;
+    position: relative;
+    gap: 15px;
+    box-shadow: 0 2px 5px rgb(235, 123, 151);
+
+    
+}
+
+.products img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.products h2{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.products p{
+    padding-left: 20px;
+    margin-top: 10px; 
+}
+
+.products button{
+    margin-left: 20px;
+    margin-top: 15px;
+    background: orangered;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+.products button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.off{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top:30px;
+    right:20px;
+    background-color:red;
+    color:white;
+    padding:0;
+    border-radius:50%;
+    font-size:10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    clip-path:circle(50%);
+}
